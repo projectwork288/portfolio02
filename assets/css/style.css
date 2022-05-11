@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+}
+form.example button:hover {
+  background: #3c6242;
+} 
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+  background-color: #376906;
+}
+
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color:#052a14; 
+  color: #ffffff;
+}
+
+/* font size for the header */
+.header h1 {
+  display: inline-block;
+  font-size:48px;
+}
+
+/* parameters for the nav selectable options in the header*/
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+/* parameters for the nav selectable options in the header*/
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/*color for nav selectable options*/
+a {
+  color: #ece2e2;
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+}
+/* This is for the hero pic (Ike). */
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/cvn69_wide.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block; 
+  margin-left: 20px;
+}
+/* sets parameters along the right of the screen */
+.codingExample {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #02240e;
+}
+
+/* sets margin and color for coding example 1 */
+.example1 {
+  margin-bottom: 132px;
+  color: #ffffff;
+}
+
+/* sets margin and color for coding example 2 */
+.example2 {
+  margin-bottom: 132px;
+  color: #ffffff;
+}
+/* sets margin and color for coding example 3 */
+.example3 {
+  margin-bottom: 132px;
+  color: #ffffff;
+}
+
+/* sets margin and alignment */
+.example1 h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* sets margin and alignment */
+.example2 h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* sets margin and alignment for header*/
+.example3 h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* Sets size params for 1st image in the side bar*/
+.example1 img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* Sets size params for 2nd image in the side bar*/
+.example2 img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* Sets size params for 3rd image in the side bar*/
+.example3 img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* parameters for the card 1*/
+.Personal-Bio {
+  margin-bottom: 20px;
+  padding: 15px;
+  height: 500px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #02240e;
+  color: #ffffff;
+}
+/* parameters for the card 2*/
+.Resume {
+  margin-bottom: 20px;
+  margin-top: 30px;
+  padding: 15px;
+  height: 800px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #02240e;
+  color: #ffffff;
+}
+/* parameters for the card 3*/
+.Work-History {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding: 15px;
+  height: 1000px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #02240e;
+  color: #ffffff;
+}
+/* define the image used in the card*/
+.example1 img {
+  max-height: 250px;
+}
+/* define the image used in the card*/
+.example2 img {
+  max-height: 250px;
+}
+/* define the image used in the card*/
+.example3 img {
+  max-height: 250px;
+}
+/* define params for lable inside card*/
+.example1 h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.example2 h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.example3 h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.footer h2 {
+  font-size: 20px;
+}
